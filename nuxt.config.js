@@ -4,6 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    css: [
+      '~/assets/css/style.scss'
+    ],
     title: 'open-zaakbrug-website',
     htmlAttrs: {
       lang: 'en'
@@ -22,6 +25,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/style.scss',
+    
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -45,4 +49,6 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+
+  
 }
