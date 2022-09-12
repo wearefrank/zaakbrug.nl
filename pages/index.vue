@@ -1,6 +1,7 @@
 
 <template>
   <div class="page">
+    <OzbBackground/>
     <section class="section1">
       <div class="container">
        <div class="row">
@@ -55,8 +56,10 @@
 
 <script>
   import "~/assets/css/style.scss";
+import OzbBackground from "../components/ozb-background.vue";
 
 export default {
-  name: 'IndexPage'
+    name: "IndexPage",
+    components: { OzbBackground }
 };
 </script>
