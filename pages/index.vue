@@ -23,14 +23,14 @@
     <section class="section2">
       <div class="container">
        <div class="row">
-         <div class="col">
-          <p class="mssg">
+         <div class="col ">
+          <p class="message">
             Een vertaler om bestaande applicaties, 
             die het oude zds-standaard praten,
              toch met een zgw-zaaksysteem te laten werken.
             </p>
           <p>
-            Powered by the <a class="#" href="#" rel="#">Frank!Framework</a>
+            Powered by the <a href="https://frankframework.org/" rel="#">Frank!Framework</a>
           </p>
          </div>
        </div>  
@@ -42,11 +42,13 @@
        <div class="row">
          <div class="col">
           <h1 class="nieuws">NIEUWS</h1>
-          <p class="nieuws_links">🔗 Borging van Open Zaakbrug</p>
-          <p class="nieuws_links">🔗 Súdwest-Fryslân live met OpenZaak en Open Zaakbrug</p>
-          <p vclass="nieuws_links"> 🔗 Nieuwsbericht met een hele lange titel zodat hij over 2 regels loopt
-             omdat je dan in het design kan zien wat er gebeurt</p>
-          <p class="nieuws_links">🔗 Release Open Zaakbrug 2.0</p>
+          <ul class="links">
+            <a href="https://commonground.nl/blog/view/6a946c44-851a-4a2b-bfaf-8368d886aff7/sudwest-fryslan-live-met-openzaak-en-open-zaakbrug">🔗 Súdwest-Fryslân live met OpenZaak en Open Zaakbrug</a>
+            <a href="https://blog.wearefrank.nl/borging-openzaakbrug-integratie-vng">🔗 Borging van Open Zaakbrug</a><br>
+            <a class="links">🔗 Nieuwsbericht met een hele lange titel zodat hij over 2 regels loopt
+             omdat je dan in het design kan zien wat er gebeurt</a><br>
+            <a class="links">🔗 Release Open Zaakbrug 2.0</a>
+          </ul>
          </div>
        </div>  
       </div>
