@@ -1,68 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-.logo{
-    width: 15rem;
-    height: 13rem;
-    margin-top: 2rem;
+* {
+    box-sizing: border-box;
 }
 
-button{
-    position: absolute;
-    width: 14rem;
-    height: 4rem;
-    margin-left: 22rem;
-    margin-top: 3.5rem;
-    
-    background: transparent;
-    border: solid transparent;
-    border-radius: 1rem;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
 
-    .gh-icon {
-        height: 2em;
+    color: #101010;
+
+    @media(max-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+.container{
+    align-content: space-around;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+a {
+    transition: all 300ms ease-in-out;
+    color: #007fc7;
+    text-decoration: underline solid currentColor;
+
+    &:hover {
+        color: #00588B;
+        text-decoration: underline solid currentColor;
+    }
+}
+
+header {
+    padding-top: 6em;
+    z-index: 5;
+    // position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 100%;
+    max-width: 320px;
+}
+
+.gh-btn {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 1em 1.5em;
+    transition: background 300ms;
+
+    color: #101010;
+    text-decoration: none;
+
+    &__icon {
+        height: 1.5em;
         margin-right: 0.6em;
-        transition: fill 200ms;
+    }
+
+    span {
+        vertical-align: middle;
     }
 
     &:hover {
-        background:rgba(0, 0, 0, 0.1);
-       
+        background: rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        color: #101010;
     }
 }
 
-.message{
-  width: 21rem;
+.news {
+    &__links {
+        margin: 0;
+        padding: 0;
+        list-style: none;
 
- font-family: 'Inter';
- font-style: normal;
- font-weight: 400;
- font-size: 1.1rem;
- line-height: 1.3em;
+        a {
+            color: #101010;
+            text-decoration: underline solid transparent;
 
+            &:hover {
+                color: #00588B;
+                text-decoration: underline solid currentColor;
+            }
+        }
+    }
 }
 
-.nieuws{
- width: 14rem;
- margin-top: 2em;
- margin-bottom: 0.5em;
+footer{
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: transparent;
+  
+  ul {
+        padding: 0;
+        text-align: center;
+        margin: auto;
+    
+        li {
+            display: inline;
 
- font-family: 'Inter';
- font-style: normal;
- font-weight: 800;
- font-size: 1.9em;
- line-height: 2em;
-}
+            a {
+                color:black;
+                text-decoration: none;
 
+                &:hover {
+                    color:black;
+                    text-decoration: none;
+                }
+            }
 
-.links{
- width: 30.5em;
-
- a{
-     text-decoration: none; 
-     color: black;
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 1em;
-     line-height: 1.5em;
+            &:hover ~ li p {
+                animation: wave-animation 0.3s infinite;
+            }
+        }
  }
-}
+ @keyframes wave-animation {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  }
+} 
+
