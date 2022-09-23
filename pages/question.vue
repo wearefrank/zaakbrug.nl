@@ -2,14 +2,10 @@
  <div>
      <OzbBackground />
      <!-- <img class="background__bridge" src="~/assets/img/open-zaakbrug-brug.svg" /> -->
-     <nav class="navbar navbar-light bg-transparant">
-            <a class="navbar-brand" href="http://10.0.0.165:3000/">
-                <img class="logo" src="~/assets/img/logo-open-zaakbrug.svg" alt="Zaakbrug logo" />
-            </a>
-     </nav>
+     <Nav />
 
      <section>
-            <h2>Met wat kunnen we u helpen?</h2>
+            <h2 class="tittle">Met wat kunnen we u helpen?</h2>
      </section>
 
      <section class="section1">
@@ -199,41 +195,3 @@
       </section>
  </div>
 </template>
-
-<style scoped >
-
-.logo {
-    width: 100%;
-    max-width: 150px
-    
-}
-
-h2{
-    text-align: center;
-    text-transform: none;
-    padding: 50px;
-    font-weight: 700;
-    font-size: 1.5em;
-}
-
-.section1{
-    padding: 10px;
-}
-
-
-
-.details{
- background-color: transparent;
-  color: black;
-}
-
-.active, .details:hover {
-    padding: 0;
- background-color:  rgba(0, 255, 195, 0.298);
-  color:  black; 
-}
-
-p{
-    padding: 10px 50px 20px;
-}
-</style>
