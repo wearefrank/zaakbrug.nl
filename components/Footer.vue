@@ -3,7 +3,7 @@
      <div>
         <ul>
           <li><a href="/question">FAQ</a></li>
-          <li><a href="#">AboutUs</a></li>
+          <li><a href="/timeline">Timeline</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Github</a></li>
           <li>
