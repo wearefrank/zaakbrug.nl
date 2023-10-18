@@ -2,12 +2,16 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  server: {
+    host: '0.0.0.0', // default: localhost,
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     css: [
       '~/assets/css/style.scss'
     ],
-    title: 'open-zaakbrug-website',
+    title: 'ZaakBrug',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,7 +22,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
 
@@ -48,7 +52,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 
-  
+  gsap: {
+    extraPlugins: {
+      scrollTrigger: true
+    },
+  }  
 }
