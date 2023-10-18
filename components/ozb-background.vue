@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="background__bridge" src="~/assets/img/open-zaakbrug-brug.svg" />
+        <img class="background__bridge" src="~/assets/img/zaakbrug-brug.svg" />
         <div class="background"></div>
     </div>
 </template>
@@ -19,21 +19,12 @@ export default {
                 duration: .3,
                 ease: 'Power1.easeInOut',
                 '--bg-rotation': `220deg`,
-                // '--bg-fade-color': `rgba(255, 0, 61, .36)`,
+                // '--bg-fade-color': `rgba(255, 0, 61, .36)`,x
                 scrollTrigger: {
                     start: '+=200',
                     toggleActions: "play none none reverse",
                 }
             })
-            // this.$gsap.to('.background__bridge', {
-            //     duration: .3,
-            //     ease: 'Power1.easeInOut',
-            //     opacity: 0,
-            //     scrollTrigger: {
-            //         start: '+=600',
-            //         toggleActions: "play none none reverse",
-            //     }
-            // })
         }
     }
 }
@@ -58,10 +49,8 @@ export default {
 .background__bridge {
     z-index: -2;
     max-width: 70vw;
-    /* max-height: 60vh; */
     position: fixed;
     opacity: 0.05;
-
     bottom: 0;
     right: 0;
 }
