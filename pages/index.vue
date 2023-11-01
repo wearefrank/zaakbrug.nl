@@ -75,6 +75,12 @@ Stap over van de oude Zaak- en Documentservices (ZDS) naar de Zaakgericht Werken
               <li>
                 <a href="https://wearefrank.tv/watch/135">🎥 [Video] - Wat is Open Zaakbrug en hoe past het binnen Common Ground?</a>
               </li>
+              <li>
+                <a href="https://wearefrank.github.io/charts/zaakbrug">🔀 [Applicatie] - Haven component (Helm Chart) voor het draaien van de ZaakBrug</a>
+              </li>
+              <li>
+                <a href="https://hub.docker.com/r/wearefrank/zaakbrug">🐳 [Applicatie] - Container image voor het draaien van de ZaakBrug in een Docker omgeving</a>
+              </li>
             </ul>
           </div>
         </div>
