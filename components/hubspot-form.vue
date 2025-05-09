@@ -49,7 +49,7 @@
           onFormReady: (form) => {
             const input = form.querySelector('input[name="form_source_page"]')
             if (input) {
-              input.value = window.location.pathname
+              input.value = "zaakbrug.nl" + window.location.pathname
             }
           }
         })
