@@ -3,11 +3,19 @@
   <div>
     <OzbBackground />
     <header class="container">
-      <div class="row flex-nowrap">
-        <div class="col-4 d-inline-flex align-items-center">
+      <div class="row mt-5">
+        <div class="col-4 mx-auto pb-3 mb-3 d-inline-flex align-items-center">
           <img class="logo" src="~/assets/img/zaakbrug-logo.svg" alt="Zaakbrug logo" />
         </div>
-        <div class="col-8 d-inline-flex justify-content-end align-items-start">
+      </div>
+      <div class="row">
+        <div class="col-lg-7 mx-auto text-center">
+          <h1>Naadloos overstappen naar de nieuwe ZGW standaard</h1>
+          <p>Stap over van de oude Zaak- en Documentservices (ZDS) naar de Zaakgericht Werken (ZGW) standaard zonder hoofdpijn. Powered by the <a href="https://frankframework.org/">Frank!Framework</a></p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-8 mx-auto text-center">
           <a href="https://github.com/wearefrank/zaakbrug" class="gh-btn">
             <svg class="gh-btn__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.58 31.77">
               <path
@@ -19,52 +27,56 @@
       </div>
     </header>
 
-    <section class="hero">
-      <div class="container">
-        <div class="row mt-5 mb-5">
-          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-            <p>
-              Een vertaler om bestaande applicaties,
-              die het oude zds-standaard praten,
-              toch met een zgw-zaaksysteem te laten werken.
-            </p>
-            <p>
-              Powered by the <a href="https://frankframework.org/">Frank!Framework</a>
-            </p>
-          </div>
+    <section class="description container pb-5">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <h3>🔄 Vertaal oud naar nieuw</h3> 
+          <p>Laat bestaande applicaties die nog de ZDS-standaard gebruiken naadloos communiceren met een ZGW-zaaksysteem.</p>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>🔗 Compatibiliteit behouden</h3>
+          <p>Ga door met je huidige zaaksgewijswerken applicaties en maak tegelijkertijd de overstap naar systemen zoals OpenZaak.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 col-sm-6">
+          <h3>🌐 Naar de Common Ground wereld</h3>
+          <p>Behoud de werking van je systemen terwijl je migreert naar de nieuwere, efficiëntere standaard.</p>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>⏰ Tijd voor leveranciers</h3>
+          <p>Terwijl jij over kan schakelen naar een ZGW-zaaksysteem, hebben je applicatieleveranciers tijd om de ZGW koppeling te integreren.</p>
         </div>
       </div>
     </section>
 
-    <section class="description container pb-5">
-      <h2>Zaakbrug: Naadloos Overstappen naar de Nieuwe ZGW Standaard!</h2>
-      <p>
-
-Stap over van de oude Zaak- en Documentservices (ZDS) naar de Zaakgericht Werken (ZGW) standaard zonder hoofdpijn. <br><br>
-
-🔄 Vertaal Oud naar Nieuw: Laat bestaande applicaties die nog de ZDS-standaard gebruiken naadloos communiceren met een ZGW-zaaksysteem.<br><br>
-
-🔗 Compatibiliteit Behouden: Ga door met je huidige zaaksgewijswerken applicaties en maak tegelijkertijd de overstap naar systemen zoals openzaak.<br><br>
-🌐 Naar de CommonGround Wereld: Behoud de werking van je systemen terwijl je migreert naar de nieuwere, efficiëntere standaard.<br><br>
-⏰ Tijd voor Leveranciers: Terwijl jij over kan schakelen naar een ZGW-zaaksysteem, hebben je applicatieleveranciers tijd om de ZGW koppeling te integreren.
-      </p>
+    <section class="container form">
+      <div class="row form__container pt-5 pb-5 pl-4 pr-4">
+        <div class="col-md-6 col-sm-12">
+          <h2>Meer weten over Zaakbrug of ondersteuning vanuit WeAreFrank!?</h2>
+          <p>Laat je gegevens achter, dan neemt een van de specialisten van WeAreFrank! contact met je op. Zij denken graag mee over de beste aanpak voor jouw situatie.</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <HubspotForm portalId="8859156" formId="ca8e7355-1c1e-41d4-a942-8d8d90220759" />
+        </div>
+      </div>
     </section>
 
-    <section class="news">
+    <section class="news pt-5">
       <div class="container pb-5">
         <h2>Relevante links</h2>
         <div class="row">
           <div class="col">
             <ul class="news__links">
               <li>
-                <a href="https://blog.wearefrank.nl/borging-openzaakbrug-integratie-vng">🔗
+                <a href="https://wearefrank.nl/insights/borging-van-open-zaakbrug-integratiesoftware-voor-de-vng?utm_source=zaakbrug&utm_medium=referral">🔗
                   [Blog] - Borging van Open ZaakBrug integratiesoftware voor de VNG</a>
               </li>
               <li>
-                <a href="https://blog.wearefrank.nl/hoe-migreer-je-als-gemeente-van-stuf-naar-common-ground">🔗 [Blog] - Hoe migreer je als gemeente voor zaakgericht werken van StUF naar Common Ground?</a>
+                <a href="https://wearefrank.nl/insights/hoe-migreer-je-als-gemeente-voor-zaakgericht-werken-van-stuf-naar-common-ground?utm_source=zaakbrug&utm_medium=referral">🔗 [Blog] - Hoe migreer je als gemeente voor zaakgericht werken van StUF naar Common Ground?</a>
               </li>
               <li>
-                <a href="https://content.wearefrank.nl/e-book-alles-over-open-zaakbrug-2.0">📖 [E-book] - Alles over ZaakBrug</a>
+                <a href="https://wearefrank.nl/cases/wearefrank-laat-bestaande-met-nieuwe-systemen-communiceren-voor-gemeente-den-haag?utm_source=zaakbrug&utm_medium=referral">📖 [Case] - WeAreFrank! laat bestaande met nieuwe systemen communiceren voor gemeente Den Haag</a>
               </li>
               <li>
                 <a href="https://wearefrank.tv/watch/129">🎥 [Video] - Wat heeft WeAreFrank! toegevoegd aan Open Zaakbrug? Hoe heeft het garanties kunnen geven en hoe weerhoudt Open Zaakbrug zich tot Common Ground?</a>
@@ -92,6 +104,7 @@ Stap over van de oude Zaak- en Documentservices (ZDS) naar de Zaakgericht Werken
 <script>
 import "~/assets/css/style.scss";
 import OzbBackground from "../components/ozb-background.vue";
+import HubspotForm from "../components/hubspot-form.vue";
 
 export default {
   name: "IndexPage",

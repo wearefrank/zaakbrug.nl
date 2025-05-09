@@ -19,7 +19,7 @@ export default {
                 duration: .3,
                 ease: 'Power1.easeInOut',
                 '--bg-rotation': `220deg`,
-                // '--bg-fade-color': `rgba(255, 0, 61, .36)`,x
+                // '--bg-fade-color': `rgba(102, 215, 255, .5)`,
                 scrollTrigger: {
                     start: '+=200',
                     toggleActions: "play none none reverse",
